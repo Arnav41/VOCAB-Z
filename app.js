@@ -3,7 +3,7 @@ const newBtn = document.getElementById("New")
 const meaning = document.getElementById("meaning")
 const meaning2 = document.getElementById("meaning2")
 const ex = document.getElementById("ex")
-
+const antonym = document.getElementById("antonym")
 
 
 newBtn.addEventListener("click", () => {
