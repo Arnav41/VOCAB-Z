@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto+Mono:wght@300&family=Shadows+Into+Light&display=swap');
+
+
 /* diplay */
 * {
   margin: 0%;
@@ -77,10 +80,15 @@ h1 {
 
 p {
   color: white;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Roboto Mono', monospace;
+
 }
 
 h3{
-    color: yellow;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Roboto Mono', monospace;
+  color: yellow;
 }
 
 .inputs{
@@ -123,4 +131,23 @@ h3{
 #WordSrc{
   margin-right: 30px;
   padding: 6px 20px;
+}
+
+.content{
+  align-items: center;
+  margin: 10px;
+  
+}
+
+
+h2 {  
+  background: linear-gradient(
+    to right,
+    hsl(67, 95%, 76%) 0,
+    hsl(64, 79%, 46%) 10%,
+    hsl(57, 84%, 59%) 20%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 1s infinite linear;
 }
