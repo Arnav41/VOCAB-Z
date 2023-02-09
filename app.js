@@ -10,7 +10,7 @@ newBtn.addEventListener("click", () => {
     let def2 = data[0].meanings[0].definitions[1].definition
     meaning2.innerText = def2
 
-    
+
   })
 })
 
