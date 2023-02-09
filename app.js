@@ -28,6 +28,8 @@ newBtn.addEventListener("click", () => {
     let exm = data[0].meanings[1].definitions[0].example
     ex.innerText = exm
 
+
+
   })
 })
 
