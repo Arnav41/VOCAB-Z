@@ -1,12 +1,12 @@
 const srcVal = document.getElementById("WordSrc")
 const newBtn = document.getElementById("New")
-const newText = document.getElementById("NewTxt")
+const meaning = document.getElementById("meaning")
 
 newBtn.addEventListener("click", () => {
   getWord(srcVal.value).then(data => {
-    let what = data[0].meanings[0].definitions[0].definition
-		console.log(what)
-		newText.innerText = what
+    let def = data[0].meanings[0].definitions[0].definition
+		console.log(def)
+		meaning.innerText = def
   })
 })
 
