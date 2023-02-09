@@ -28,9 +28,9 @@ h1 {
   padding: 64px;
   background: linear-gradient(
     to right,
-    hsl(0, 0%, 30%) 0,
-    hsl(0, 0%, 100%) 10%,
-    hsl(0, 0%, 30%) 20%
+    hsl(67, 95%, 76%) 0,
+    hsl(64, 50%, 44%) 10%,
+    hsl(52, 71%, 78%) 20%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -116,7 +116,7 @@ h3{
   will-change: transform;
 }
 .New:hover {
-  box-shadow: rgb(254, 254, 254) 0 8px 15px;
+  box-shadow: rgb(246, 235, 115) 0 8px 15px;
   transform: translateY(2px);
 }
 
